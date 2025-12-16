@@ -10,6 +10,11 @@
 
 void preloadImages(void)
 {
+#ifdef PLATFORM_PLAYDATE
+    alternateSource = 0;
+#else
+    alternateSource = 1;
+#endif
     introFont = gl_loadImage("images/bigfont.png",1,41,alternateSource);
     lcdFont = gl_loadImage("images/lcdfont.png",1,41,alternateSource);
     Player = gl_loadImage("images/player.png",1,1,alternateSource);
