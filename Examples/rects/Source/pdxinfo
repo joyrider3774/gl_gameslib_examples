@@ -1,0 +1,7 @@
+name=My Game
+author=My Game Author
+description=My Game Description
+bundleID=com.username.my_game
+version=1.0
+buildNumber=1
+imagePath=metadata

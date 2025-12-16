@@ -1,0 +1,12 @@
+[submodule "Vendored/SDL3"]
+	path = Vendored/SDL3
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "Vendored/SDL_mixer"]
+	path = Vendored/SDL_mixer
+	url = https://github.com/libsdl-org/SDL_mixer.git
+[submodule "Vendored/SDL_image"]
+	path = Vendored/SDL_image
+	url = https://github.com/libsdl-org/SDL_image.git
+[submodule "Vendored/gl_gameslib"]
+	path = Vendored/gl_gameslib
+	url = https://github.com/joyrider3774/gl_gameslib.git
